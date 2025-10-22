@@ -15,11 +15,15 @@ import {
   ExternalLink
 } from 'lucide-react'
 
+// Import images
+import logoEcotrap from '/logo-ecotrap.png'
+import trampa3 from '/trampa3.png'
+
 // compo
 const EcoTrapLogo = ({ className = "" }: { className?: string }) => (
   <div className={`flex items-center ${className}`}>
     <img 
-      src="/logo-ecotrap.png" 
+      src={logoEcotrap} 
       alt="EcoTrap Logo" 
       className="h-20 w-auto object-contain"
     />
@@ -161,7 +165,7 @@ function App() {
             <div className="flex justify-center md:justify-end">
               <div className="relative">
                 <img 
-                  src="/trampa3.png" 
+                  src={trampa3} 
                   alt="Trampa de grasa industrial" 
                   className="w-full max-w-4xl h-auto object-contain"
                 />
