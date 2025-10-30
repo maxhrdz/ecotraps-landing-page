@@ -554,7 +554,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-primary-dark mb-3">Email</h3>
-                    <p className="text-muted text-lg">sandiegobutchersupply@yahoo.com</p>
+                    <p className="text-muted text-lg">info@ecotrapsolutions.com/p>
                     <p className="text-muted text-sm mt-2">Respuesta en menos de 24 horas</p>
                   </div>
                 </div>
